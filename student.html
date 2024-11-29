@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پرسش فیزیک</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>پرسش فیزیک</h1>
+        <form id="question-form">
+            <label for="name">نام:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="title">تیتر سؤال:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="topic">موضوع:</label>
+            <select id="topic" name="topic" required>
+                <option value="mechanics">مکانیک</option>
+                <option value="electricity">الکتریسیته</option>
+                <option value="optics">نور</option>
+                <option value="thermodynamics">گرما</option>
+            </select>
+
+            <label for="description">توضیحات:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <label for="image">آپلود عکس (اختیاری):</label>
+            <input type="file" id="image" name="image" accept="image/*">
+
+            <button type="submit">ارسال سؤال</button>
+        </form>
+    </div>
+    <script src="js/student.js"></script>
+</body>
+</html>

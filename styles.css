@@ -1,0 +1,217 @@
+/* تنظیمات عمومی */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* کانتینر اصلی */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* عنوان */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* دکمه‌ها */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* فرم‌ها */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* پیام‌های خطا */
+.error {
+    color: red;
+    display: none;
+}
+
+/* فرم سوالات */
+.question-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* انتخاب نوع کاربر */
+.user-selection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-selection button {
+    width: 48%;
+}
+
+/* استایل پنل مدیریت */
+.question-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.question-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f7f7f7;
+}
+
+.question-item h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+.question-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.question-item small {
+    color: #888;
+    font-size: 12px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+/* استایل مخصوص صفحات سوالات و ورود */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form textarea {
+    margin-bottom: 12px;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+.question-form, .admin-login-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* نمایش عکس سوالات */
+.question-image-container {
+    margin-top: 10px;
+    text-align: center;
+    display: none; /* مخفی کردن تصویر به طور پیش‌فرض */
+}
+
+.question-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-height: 300px; /* محدود کردن ارتفاع عکس */
+    margin: 10px 0;
+}
+
+/* دکمه نمایش عکس */
+.view-image-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.view-image-button:hover {
+    background-color: #2980b9;
+}
+
+/* استایل برای سوالات و دکمه‌ها */
+.question-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f7f7f7;
+}
+
+.question-item h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+.question-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}

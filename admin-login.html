@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود ادمین</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ورود ادمین</h1>
+        <form id="admin-login-form">
+            <label for="username">نام کاربری:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">رمز عبور:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">ورود</button>
+        </form>
+        <p id="error-message" class="error">نام کاربری یا رمز عبور اشتباه است!</p>
+    </div>
+    <script src="js/admin-login.js"></script>
+</body>
+</html>
